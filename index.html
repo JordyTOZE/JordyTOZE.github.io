@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dona TOZE - UI & UX Designer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold text-primary" href="#hero">Dona</a>
+                
+                <!-- Mobile menu button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <!-- Texte à gauche -->
+          <div class="col-lg-7 order-2 order-lg-1 hero-text">
+            <div class="hero-intro mb-3">
+              <span class="fw-semibold">Je suis <span class="text-primary fw-bold">Dona TOZE</span></span>
+            </div>
+            <div class="hero-title-main mb-0">UI &amp; UX</div>
+            <div class="hero-title-sub mb-4">Designer</div>
+            <div class="hero-desc mb-5">
+              Je conçois des interfaces intuitives et centrées utilisateur pour répondre à des besoins concrets
+            </div>
+            <div class="hero-btn-wrapper mb-4 d-flex justify-content-center">
+              <a href="#" class="btn btn-cv">Télécharger CV</a>
+            </div>
+          </div>
+          <!-- Photo à droite + logos sociaux dessous -->
+          <div class="col-lg-5 d-flex flex-column align-items-center order-1 order-lg-2 mb-4 mb-lg-0 hero-photo-col">
+            <div class="hero-photo-inner mb-4">
+              <img src="Image pour portfolio.jpg" alt="Dona TOZE">
+            </div>
+            <div class="hero-socials">
+              <a href="#" class="text-decoration-none"><i data-lucide="facebook"></i></a>
+              <a href="#" class="text-decoration-none"><i data-lucide="instagram"></i></a>
+              <a href="#" class="text-decoration-none"><i data-lucide="linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">À propos de moi</h2>
+        </div>
+        <div class="row">
+          <!-- Skills à gauche -->
+          <div class="col-lg-6">
+            <div class="skills-container">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">UX Design</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">UI Design</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Design Graphique</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- About Content à droite -->
+          <div class="col-lg-6">
+            <div id="aboutCarousel" class="carousel slide about-content-carousel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="about-card">
+                    <div class="card-header">
+                      <h3>Qui suis-je ?</h3>
+                      <i data-lucide="chevron-down"></i>
+                    </div>
+                    <p>UX/UI Designer, je m'intéresse à la manière dont les utilisateurs interagissent avec les produits numériques. Mon objectif étant de concevoir des interfaces utiles, simples et bien structurées, en phase avec leurs attentes.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="about-card">
+                    <div class="card-header">
+                      <h3>Ce que je fais</h3>
+                      <i data-lucide="chevron-down"></i>
+                    </div>
+                    <p>Je conçois des interfaces web et mobiles en plaçant l'utilisateur au cœur de la réflexion. Je travaille sur des maquettes fonctionnelles et des prototypes interactifs, en veillant à proposer des parcours fluides, intuitifs et visuellement cohérents.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="about-card">
+                    <div class="card-header">
+                      <h3>Mon parcours</h3>
+                      <i data-lucide="chevron-down"></i>
+                    </div>
+                    <p>Grâce à ma formation en sociologie, j'ai développé une sensibilité aux comportements, aux contextes et aux usages. Ce regard me permet d'aborder le design avec une attention particulière portée à l'expérience vécue par l'utilisateur.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+              </button>
+              <div class="carousel-indicators mt-3">
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services" class="services-section py-5">
+  <div class="container">
+    <h2 class="services-title text-center mb-2">Services</h2>
+    <div class="services-subtitle text-center mb-5">
+      J’accompagne les entreprises et les startups dans la conception de produits numériques intuitifs, esthétiques et centrés utilisateur.
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="service-card w-100">
+          <h3 class="service-title">UI Design</h3>
+          <p class="service-desc">Je crée des interfaces visuellement , claires et cohérentes, en accord avec l’identité de la marque. Chaque élément est pensé pour guider l’utilisateur avec simplicité et esthétisme.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="service-card w-100">
+          <h3 class="service-title">UX Design</h3>
+          <p class="service-desc">J’optimise l’expérience utilisateur en concevant des parcours simples, efficaces et adaptés aux besoins réels afin de rendre chaque interaction intuitive et agréable.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="service-card w-100">
+          <h3 class="service-title">Design d’application</h3>
+          <p class="service-desc">Je conçois des interfaces mobiles intuitives, modernes et fonctionnelles, en alliant esthétique et simplicité d’usage pour une expérience fluide.</p>
+        </div>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-md-4 mb-4 d-flex justify-content-center mx-auto">
+        <div class="service-card w-100">
+          <h3 class="service-title">Design graphique</h3>
+          <p class="service-desc">Je crée des visuels percutants et cohérents pour valoriser les messages, renforcer l’image de marque et capter l’attention, que ce soit pour le print ou le digital.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#contact" class="btn btn-services">Contactez moi</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects-section py-5">
+  <div class="container">
+    <h2 class="projects-title text-center mb-2">Mes Projets</h2>
+    <div class="projects-subtitle text-center mb-5">
+      Découvrez comment je transforme des idées en solutions concrètes et fonctionnelles.
+    </div>
+    <div class="project-block text-center mb-5 d-flex flex-column align-items-start">
+      <h3 class="project-name mb-4">Coris</h3>
+      <div class="project-image-block d-flex flex-column align-items-center">
+        <div class="project-image mb-4">
+          <img src="Coris 1.png" alt="Coris App Mockup" class="img-fluid" style="max-width: 420px;">
+        </div>
+        <a href="#" class="btn btn-projects">Voir plus</a>
+      </div>
+    </div>
+      <!-- Bloc UI/UX GAME aligné à droite, image et bouton parfaitement alignés à droite -->
+      <div class="project-block mb-5" style="display: flex; flex-direction: column; align-items: flex-end; width: 100%; text-align: right;">
+        <h3 class="project-name mb-4" style="text-align: center; width: 100%; margin: 0; padding: 0;">UI/UX GAME</h3>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; width: 100%;">
+          <img src="Ui Ux Game 1.png" alt="UI/UX Game Mockup" style="max-width: 420px; width: 100%; display: block; margin: 0; padding: 0;">
+          <a href="#" class="btn btn-projects" style="width: 223px; margin: 24px 0 0 0; display: block; text-align: center;">Voir plus</a>
+        </div>
+      </div>
+  </div>
+  <div class="project-block text-center mb-5 d-flex flex-column align-items-start">
+    <h3 class="project-name mb-4">FIEREMENT BENINOIS</h3>
+    <div class="project-image-block d-flex flex-column align-items-center" style="margin-left: 64px;">
+      <div class="project-image mb-4">
+        <img src="fierebenin.png" alt="Coris App Mockup" class="img-fluid" style="max-width: 420px;">
+      </div>
+      <a href="#" class="btn btn-projects">Voir plus</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5" style="background: linear-gradient(135deg, #2a6edc 0%, #1e3c72 100%);">
+      <div class="container">
+        <h2 class="text-center text-white fw-bold mb-3" style="font-size: 2.7rem;">Donnez vie à vos idées</h2>
+        <p class="text-center text-white mb-5" style="max-width: 700px; margin: 0 auto;">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row justify-content-center" style="background: #18325a; border-radius: 10px; padding: 48px 32px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); min-height: 340px;">
+              <!-- Infos à gauche -->
+              <div class="col-md-4 d-flex flex-column align-items-start justify-content-start" style="gap: 32px;">
+                <div class="d-flex align-items-center" style="gap: 16px;">
+                  <span class="d-flex align-items-center justify-content-center" style="background: #204080; border-radius: 50%; width: 48px; height: 48px;">
+                    <i data-lucide="phone" class="text-white" style="width: 26px; height: 26px;"></i>
+                  </span>
+                  <span class="text-white" style="font-size: 1.15rem; font-weight: 500;">01 9975 7373</span>
+                </div>
+                <div class="d-flex align-items-center" style="gap: 16px;">
+                  <span class="d-flex align-items-center justify-content-center" style="background: #204080; border-radius: 50%; width: 48px; height: 48px;">
+                    <i data-lucide="mail" class="text-white" style="width: 26px; height: 26px;"></i>
+                  </span>
+                  <span class="text-white" style="font-size: 1.15rem; font-weight: 500;">camitoze@gmail.com</span>
+                </div>
+              </div>
+              <!-- Formulaire à droite -->
+              <div class="col-md-8 d-flex flex-column align-items-center justify-content-center">
+                <form style="width: 100%; max-width: 600px;">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nom" style="background: #e9eef6; border-radius: 8px; border: none; color: #18325a; font-size: 1.08rem; padding: 16px 20px;">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email" style="background: #e9eef6; border-radius: 8px; border: none; color: #18325a; font-size: 1.08rem; padding: 16px 20px;">
+                  </div>
+                  <div class="mb-4">
+                    <textarea class="form-control" rows="4" placeholder="Message" style="background: #e9eef6; border-radius: 8px; border: none; color: #18325a; font-size: 1.08rem; padding: 16px 20px;"></textarea>
+                  </div>
+                  <div class="d-flex justify-content-start">
+                    <button type="submit" class="btn" style="background: linear-gradient(90deg, #ff9800 0%, #f36d21 100%); color: #fff; font-weight: 600; font-size: 1.15rem; border-radius: 8px; padding: 12px 48px; min-width: 180px;">Envoyer</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="background: #fafbfc; border-top: 1px solid #e5e7eb; padding-top: 4.5rem; padding-bottom: 4.5rem;">
+      <div class="container">
+        <nav class="mb-4">
+          <ul class="nav justify-content-center gap-4" style="font-size: 1.08rem; font-weight: 500;">
+            <li class="nav-item"><a class="nav-link text-dark p-0" href="#hero">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link text-dark p-0" href="#about">A propos</a></li>
+            <li class="nav-item"><a class="nav-link text-dark p-0" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link text-dark p-0" href="#projects">Projets</a></li>
+            <li class="nav-item"><a class="nav-link text-dark p-0" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="d-flex justify-content-center gap-4 mb-2">
+          <a href="#" aria-label="Facebook" class="text-decoration-none" style="color: #2563eb; font-size: 1.7rem;"><i data-lucide="facebook"></i></a>
+          <a href="#" aria-label="Instagram" class="text-decoration-none" style="color: #2563eb; font-size: 1.7rem;"><i data-lucide="instagram"></i></a>
+          <a href="#" aria-label="LinkedIn" class="text-decoration-none" style="color: #2563eb; font-size: 1.7rem;"><i data-lucide="linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <div style="width: 100vw; height: 40px; background: #000; margin-left: calc(-50vw + 50%); position: relative;"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Initialize Lucide Icons -->
+    <script>lucide.createIcons();</script>
+</body>
+</html> 
